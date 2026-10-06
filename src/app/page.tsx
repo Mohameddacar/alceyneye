@@ -38,7 +38,7 @@ export default function Home() {
             <div className="flex flex-wrap gap-4">
               <Link 
                 href="/collections" 
-                className="bg-gradient-to-r bg-brand-gradient text-white px-8 py-4 rounded-full font-bold hover:shadow-lg hover:scale-105 transition-all flex items-center gap-2"
+                className="bg-brand-gradient text-white px-8 py-4 rounded-full font-bold hover:shadow-lg hover:scale-105 transition-all flex items-center gap-2"
               >
                 Explore Collection
                 <ArrowRight size={20} />
@@ -100,7 +100,7 @@ export default function Home() {
            <p className="text-xl text-gray-600 max-w-2xl mx-auto mb-10">From classic designs to modern trends, find the eyewear that fits your unique personality and lifestyle.</p>
            <Link 
               href="/collections" 
-              className="inline-flex bg-gradient-to-r bg-brand-gradient text-white px-10 py-4 rounded-full font-bold hover:shadow-lg hover:-translate-y-1 transition-all items-center gap-2 text-lg"
+              className="inline-flex bg-brand-gradient text-white px-10 py-4 rounded-full font-bold hover:shadow-lg hover:-translate-y-1 transition-all items-center gap-2 text-lg"
             >
               Shop All Collections
             </Link>

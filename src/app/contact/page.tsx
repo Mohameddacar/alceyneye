@@ -76,7 +76,7 @@ export default function Contact() {
             </div>
 
             <div className="flex flex-wrap gap-4">
-              <a href="tel:+252612224212" className="bg-gradient-to-r bg-brand-gradient text-white px-8 py-3.5 rounded-full font-bold shadow-md hover:shadow-lg transition-all text-center">
+              <a href="tel:+252612224212" className="bg-brand-gradient text-white px-8 py-3.5 rounded-full font-bold shadow-md hover:shadow-lg transition-all text-center">
                 Call Now
               </a>
               <a href="https://wa.me/252612224212" target="_blank" rel="noreferrer" className="bg-white text-blue-600 border border-blue-100 px-8 py-3.5 rounded-full font-bold shadow-sm hover:bg-blue-50 transition-all text-center">
@@ -125,7 +125,7 @@ export default function Contact() {
             </div>
             
             <div className="text-center">
-              <button disabled={status === 'sending'} type="submit" className="bg-gradient-to-r bg-brand-gradient text-white px-10 py-4 rounded-full font-bold shadow-lg hover:shadow-xl transition-all disabled:opacity-70 text-lg w-full md:w-auto">
+              <button disabled={status === 'sending'} type="submit" className="bg-brand-gradient text-white px-10 py-4 rounded-full font-bold shadow-lg hover:shadow-xl transition-all disabled:opacity-70 text-lg w-full md:w-auto">
                 {status === 'sending' ? 'Sending...' : 'Send Message'}
               </button>
             </div>
