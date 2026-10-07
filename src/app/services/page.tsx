@@ -1,28 +1,48 @@
 import Image from 'next/image';
-import { Microscope, Glasses, Scissors, Stethoscope, Clock, CheckCircle2 } from 'lucide-react';
+import { Glasses, Activity, ShieldPlus, Siren, Baby, Users, Store, Wrench, CheckCircle2 } from 'lucide-react';
 import Link from 'next/link';
 
 export default function Services() {
   const services = [
     {
-      icon: <Stethoscope size={40} />,
-      title: 'Comprehensive Eye Exams',
-      desc: 'Our advanced clinical eye exams go beyond testing vision. We check for early signs of eye diseases like glaucoma and macular degeneration to ensure your long-term eye health.',
-    },
-    {
       icon: <Glasses size={40} />,
-      title: 'Expert Frame Styling',
-      desc: 'Not sure which frame suits your face shape? Our expert optical stylists will help you navigate our collection to find the perfect frame that complements your features and lifestyle.',
+      title: 'Baaritaanka Aragga & Qorista Muraayadaha',
+      desc: 'Comprehensive visual acuity testing and precise prescription of corrective lenses for optimal sight and comfort.',
     },
     {
-      icon: <Microscope size={40} />,
-      title: 'Custom Lens Fitting',
-      desc: 'We offer a wide range of premium lenses, including blue-light blocking, transition, and progressive lenses. Each pair is precision-cut to match your exact prescription.',
+      icon: <Activity size={40} />,
+      title: 'Baaritaanka Cadaadiska & Gudaha Isha (Glaucoma)',
+      desc: 'Advanced diagnostic screening for eye pressure and internal eye structures to detect and manage conditions like glaucoma.',
     },
     {
-      icon: <Scissors size={40} />,
-      title: 'Frame Repairs & Adjustments',
-      desc: 'Accidents happen. Whether you need a screw replaced, a frame realigned, or a deep ultrasonic cleaning, our technicians provide quick and reliable in-store adjustments.',
+      icon: <ShieldPlus size={40} />,
+      title: 'Daweynta Caabuqyada & Xasaasiyadda Indhaha',
+      desc: 'Expert medical care for eye infections, inflammations, and allergic reactions to restore comfort and health.',
+    },
+    {
+      icon: <Siren size={40} />,
+      title: 'Adeegyada Gargaarka Degdegga ah',
+      desc: 'Immediate attention and removal of foreign objects or treatment for sudden eye injuries and acute conditions.',
+    },
+    {
+      icon: <Baby size={40} />,
+      title: 'Daryeelka & Baaritaannada Gaarka ah ee Carruurta',
+      desc: 'Specialized, gentle eye examinations and care tailored specifically for children\'s developing vision.',
+    },
+    {
+      icon: <Users size={40} />,
+      title: 'La-talinta Bukaanada u Baahan Qalliinka',
+      desc: 'Professional guidance, counseling, and trusted referrals for patients requiring advanced surgical interventions.',
+    },
+    {
+      icon: <Store size={40} />,
+      title: 'Iibinta Ookiyaalaha (Optical Shop)',
+      desc: 'A premium selection of designer frames, sunglasses, and high-quality lenses to suit every style and need.',
+    },
+    {
+      icon: <Wrench size={40} />,
+      title: 'Farsamada Ookiyaalaha (Optical Workshop)',
+      desc: 'In-house technical services for precise lens cutting, frame repairs, and custom adjustments by skilled technicians.',
     },
   ];
 

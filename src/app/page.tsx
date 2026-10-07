@@ -1,14 +1,10 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import { Play, ArrowRight, ShoppingCart, Star } from 'lucide-react';
+import { products } from '@/data/products';
 
 export default function Home() {
-  const bestSellers = [
-    { id: 1, name: 'Classic Black Frame', type: 'Optical Frame', price: 120, rating: 4.8, reviews: 120, image: '/glasses.jpg' },
-    { id: 2, name: 'Modern Metal Frame', type: 'Optical Frame', price: 140, rating: 4.7, reviews: 95, image: '/glasses.jpg' },
-    { id: 3, name: 'Luxury Square', type: 'Premium Frame', price: 160, rating: 4.9, reviews: 86, image: '/glasses.jpg' },
-    { id: 4, name: 'Classic Aviator', type: 'Sunglasses', price: 150, rating: 4.8, reviews: 110, image: '/glasses.jpg' },
-  ];
+  const bestSellers = products.slice(0, 4);
 
   return (
     <div className="flex flex-col w-full">
@@ -67,7 +63,7 @@ export default function Home() {
           
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
             {bestSellers.map((item) => (
-              <div key={item.id} className="bg-gray-50 rounded-2xl p-6 hover:shadow-xl transition-all duration-300 group border border-gray-100">
+              <Link href={`/collections/${item.id}`} key={item.id} className="bg-gray-50 rounded-2xl p-6 hover:shadow-xl transition-all duration-300 group border border-gray-100 block">
                 <div className="relative h-48 w-full mb-6 mix-blend-multiply group-hover:scale-105 transition-transform duration-500">
                   <Image src={item.image} alt={item.name} fill className="object-contain" />
                 </div>
@@ -87,7 +83,7 @@ export default function Home() {
                     </button>
                   </div>
                 </div>
-              </div>
+              </Link>
             ))}
           </div>
         </div>

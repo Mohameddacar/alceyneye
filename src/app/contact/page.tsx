@@ -102,11 +102,11 @@ export default function Contact() {
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
               <div>
                 <label htmlFor="name" className="block text-sm font-semibold text-gray-700 mb-2">Full Name</label>
-                <input required type="text" id="name" name="name" value={formData.name} onChange={handleChange} className="w-full px-4 py-3 rounded-xl border border-gray-200 focus:ring-2 focus:ring-[var(--color-brand-purple)] focus:border-[var(--color-brand-purple)] outline-none transition-all" placeholder="John Doe" />
+                <input required type="text" id="name" name="name" value={formData.name} onChange={handleChange} className="w-full px-4 py-3 rounded-xl border border-gray-200 focus:ring-2 focus:ring-[var(--color-brand-purple)] focus:border-[var(--color-brand-purple)] outline-none transition-all" placeholder="Mohamed Ali" />
               </div>
               <div>
                 <label htmlFor="email" className="block text-sm font-semibold text-gray-700 mb-2">Email Address</label>
-                <input required type="email" id="email" name="email" value={formData.email} onChange={handleChange} className="w-full px-4 py-3 rounded-xl border border-gray-200 focus:ring-2 focus:ring-[var(--color-brand-purple)] focus:border-[var(--color-brand-purple)] outline-none transition-all" placeholder="john@example.com" />
+                <input required type="email" id="email" name="email" value={formData.email} onChange={handleChange} className="w-full px-4 py-3 rounded-xl border border-gray-200 focus:ring-2 focus:ring-[var(--color-brand-purple)] focus:border-[var(--color-brand-purple)] outline-none transition-all" placeholder="mohamedali@gmail.com" />
               </div>
             </div>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">

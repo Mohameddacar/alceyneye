@@ -15,6 +15,9 @@
   body {
     @apply text-gray-800 bg-white;
   }
+  nextjs-portal {
+    display: none !important;
+  }
 }
 
 @layer components {
@@ -22,6 +25,17 @@
     background: linear-gradient(135deg, #fce7f3 0%, #e0e7ff 100%);
   }
   .bg-brand-gradient {
+    background: linear-gradient(to right, #811438, #0D1977);
+    transition: all 0.3s ease;
+  }
+  .bg-brand-gradient:hover {
+    filter: brightness(1.15);
+    box-shadow: 0 10px 25px -5px rgba(13, 25, 119, 0.4);
+  }
+  .hover\:bg-brand-gradient:hover {
+    background: linear-gradient(to right, #811438, #0D1977);
+  }
+  .group:hover .group-hover\:bg-brand-gradient {
     background: linear-gradient(to right, #811438, #0D1977);
   }
   .text-brand-gradient {
