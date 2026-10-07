@@ -105,7 +105,7 @@ export default function Services() {
             </div>
           </div>
           <div className="relative h-[400px] rounded-3xl overflow-hidden">
-             <Image src="/hero.jpg" alt="Eye examination" fill className="object-cover opacity-80" />
+             <Image src="/hero-man.jpg" alt="Eye examination" fill className="object-cover opacity-80" />
           </div>
         </div>
       </section>

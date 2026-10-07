@@ -8,21 +8,21 @@ export default function Testimonials() {
       role: 'Verified Customer',
       rating: 5,
       text: 'Great selection of glasses and very helpful service. I found exactly the frame I was looking for!',
-      image: '/hero.jpg' // Using hero as placeholder for avatar
+      image: '/hero-man.jpg' // Using hero as placeholder for avatar
     },
     {
       name: 'Mohamed A.',
       role: 'Verified Customer',
       rating: 5,
       text: 'Beautiful designs and excellent customer service. Highly recommended!',
-      image: '/hero.jpg'
+      image: '/hero-man.jpg'
     },
     {
       name: 'Fatima S.',
       role: 'Verified Customer',
       rating: 5,
       text: 'Premium quality glasses and modern styles. I always find new arrivals here.',
-      image: '/hero.jpg'
+      image: '/hero-man.jpg'
     }
   ];
 

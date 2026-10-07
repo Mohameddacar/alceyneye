@@ -9,10 +9,10 @@ export default function Home() {
   return (
     <div className="flex flex-col w-full">
       {/* Hero Section */}
-      <section className="relative w-full h-[90vh] bg-[#edf2f8] overflow-hidden flex items-center">
+      <section className="relative w-full min-h-[90vh] py-32 bg-[#edf2f8] overflow-hidden flex items-center">
         <div className="absolute inset-0 z-0">
           <Image 
-            src="/hero.jpg" 
+            src="/hero-man.jpg" 
             alt="Woman wearing stylish glasses" 
             fill
             className="object-cover object-right lg:object-center opacity-90"
