@@ -9,7 +9,7 @@ export default function Home() {
   return (
     <div className="flex flex-col w-full">
       {/* Hero Section */}
-      <section className="relative w-full min-h-[90vh] py-32 bg-[#edf2f8] overflow-hidden flex items-center">
+      <section className="relative w-full min-h-screen py-24 lg:py-32 bg-[#edf2f8] overflow-hidden flex items-center">
         <div className="absolute inset-0 z-0">
           <Image 
             src="/hero-man.jpg" 
